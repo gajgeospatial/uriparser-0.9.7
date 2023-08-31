@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test URIPARSER_COMPILER_SUPPORTS_VISIBILITY failed with the following output:
+Change Dir: N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_75871.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D URIPARSER_COMPILER_SUPPORTS_VISIBILITY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75871.dir\Debug\\" /Fd"cmTC_75871.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -fvisibility=hidden "N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\src.c"
+cl : command line warning D9002: ignoring unknown option '-fvisibility=hidden' [N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\cmTC_75871.vcxproj]
+  cmTC_75871.vcxproj -> N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_75871.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3dff6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=reallocarray /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dff6.dir\Debug\\" /Fd"cmTC_3dff6.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol reallocarray referenced in function main [N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\cmTC_3dff6.vcxproj]
+N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_3dff6.exe : fatal error LNK1120: 1 unresolved externals [N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\cmTC_3dff6.vcxproj]
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_7a7ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a7ca.dir\Debug\\" /Fd"cmTC_7a7ca.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [N:\Development\Dev_Base\uriparser-0.9.7\msvc\CMakeFiles\CMakeTmp\cmTC_7a7ca.vcxproj]
+
+
+

@@ -1,0 +1,7 @@
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/uriparser.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/uriparse.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/testrunner.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/check.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/RUN_TESTS.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/ALL_BUILD.dir
+N:/Development/Dev_Base/uriparser-0.9.7/msvc/CMakeFiles/ZERO_CHECK.dir
